@@ -1,7 +1,8 @@
 name: Parse Cloud code deploy and restart pm2 
 description: Action To deploy Parse Server Cloud function to it`s repo and restart the pm2 server after flush the logs
-color: blue
-icon: arrow-up-circle
+branding:
+  icon: 'arrow-up-circle'  
+  color: 'blue'
 
 on:
   push:
